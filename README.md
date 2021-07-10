@@ -86,4 +86,18 @@ requirement of system
 -composer v1
 -wamp/xamp or any sqldb according to system
 
-installation
+installation steps
+1.git clone
+2.composer install 
+3. cp .env.example .env
+4. db auta setup garne name rakhera 
+5. in .env 
+
+    DB_DATABASE={{db name}}
+    DB_USERNAME={{username of db}}
+    DB_PASSWORD={{ password of db}}
+6. npm install,npm run dev
+7.php artisan migrate
+8.php artisan db:seed
+the program must run now
+
